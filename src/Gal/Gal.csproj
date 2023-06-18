@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gal.Data.Fakes\Gal.Data.Fakes.csproj" />
+    <ProjectReference Include="..\Gal.Gwp\Gal.Gwp.csproj" />
+  </ItemGroup>
+
+</Project>

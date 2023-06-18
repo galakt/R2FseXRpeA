@@ -1,0 +1,19 @@
+<Project>
+	<!-- One of my favourite -->
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+		<RestorePackagesWithLockFIle>true</RestorePackagesWithLockFIle>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+		<PackageVersion Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+		<PackageVersion Include="xunit" Version="2.4.1" />
+		<PackageVersion Include="xunit.runner.visualstudio" Version="2.4.3" />
+		<PackageVersion Include="coverlet.collector" Version="3.0.2" />
+	</ItemGroup>
+</Project>
